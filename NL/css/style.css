@@ -48,7 +48,7 @@ footer {
 }
 
 #SponsorLogo {
-    height: 20%;
+    width: 15%;
     display: flex;
     justify-content: flex-end;
 }
@@ -97,4 +97,36 @@ footer {
 
 #GoogleReviews {
     width: 35vw;
+}
+#FixedHeader{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    position: fixed;
+    top:0;
+}
+#FixedFooter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 7vw;
+}
+#footerTXTa{
+    font-size: medium;
+}
+#footerTXTb{
+    font-size: medium;
+}
+#Informatie{
+    width: 50%
+    float:left
+}
+#infoIMG{
+    width:50%;
+    float: right;
 }
