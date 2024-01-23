@@ -1,32 +1,56 @@
-* {
+#main {
     padding: 0;
     margin-left: 2vw;
     margin-right: 2vw;
     box-sizing: border-box;
+    
+
 }
+*{
+    max-zoom: 25%;
+}
+
 
 @font-face {
     font-family: Poppins-Thin;
     src: url(Poppins-Thin.ttf);
 }
 
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 body {
     background-color: #212121;
-    font-size: 28px;
+    font-size: 2vw;
     font-family: Poppins-Thin;
     color: whitesmoke;
+    
 }
 
 footer {
     background-color: black;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+
 }
 
 #footerTXT {
-    margin-left: 20px;
+    font-size: 1vw;
+    text-align: center;
+    width: 25vw;
+}
+.links{
+    display: flex;
+    
 }
 
-#SponserLogo {
-    width: 20%;
+#SponsorLogo {
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #IMGbar {
@@ -38,6 +62,9 @@ footer {
 .barIMGS {
     width: 16vw;
     height: 10vw;
+}
+#logoIMG{
+    margin-left: 30px;
 }
 
 #Introductie {
