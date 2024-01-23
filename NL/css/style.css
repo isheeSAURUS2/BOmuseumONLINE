@@ -1,7 +1,7 @@
 * {
     padding: 0;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 2%;
+    margin-right: 2%;
     box-sizing: border-box;
 }
 
@@ -29,6 +29,10 @@ footer {
     width: 20%;
 }
 
+#qr{
+    height: 265px;
+}
+
 #IMGbar {
     display: flex;
     justify-content: space-evenly;
@@ -36,15 +40,15 @@ footer {
 }
 
 .barIMGS {
-    width: 16vw;
-    height: 10vw;
+    width: 26%;
+    height: 20%;
 }
 
 #Introductie {
     display: flex;
     justify-content: center;
     gap: 72px;
-    width: 60vw;
+    width: 60%;
     margin: 0 auto;
     padding: 40px;
 }
@@ -60,14 +64,49 @@ footer {
 }
 
 #ReviewT {
-    margin-left: 9vw;
+    margin-left: 9%;
     border-bottom: 2px solid white;
 }
 
 #Tripadvisor {
-    width: 35vw;
+    width: 35%;
 }
 
 #GoogleReviews {
-    width: 35vw;
+    width: 35%;
+}
+
+#introIMG{
+    width: 60%;
+    height: 60%;
+}
+
+
+#Introductie{
+ font-size: 20px;
+ width: auto;
+ display: flex;
+ align-items: center;
+ 
+}
+
+#infoIMG{
+    height: 50%;
+    width: 50%;
+}
+
+#Informatie{
+    font-size: 20px;
+    width: 50%;
+    display: flex;
+}   
+
+.article-information{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
 }
