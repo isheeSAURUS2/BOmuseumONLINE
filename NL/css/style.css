@@ -17,6 +17,26 @@ body {
     color: whitesmoke;
 }
 
+body.light-mode {
+    background-color: whitesmoke;
+    color: black;
+}
+body.dark-mode {
+    background-color: #212121;
+    color: white;
+}
+
+button{
+    background-color: #212121; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 footer {
     background-color: black;
 }

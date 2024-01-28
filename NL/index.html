@@ -5,9 +5,23 @@
     <link rel="stylesheet" href="css/style.css">
     <title>MuseumOnline</title>
 </head>
-
-<body>
+<body class="dark-mode">
     <header>
+        <button onclick="toggleMode()">Toggle light mode</button>
+        <script>
+            function toggleMode() {
+                var bodyElement = document.body;
+        
+
+                if (bodyElement.classList.contains('light-mode')) {
+
+                    bodyElement.classList.replace('light-mode', 'dark-mode');
+                } else {
+
+                    bodyElement.classList.replace('dark-mode', 'light-mode');
+                }
+            }
+        </script>
         <img id="logoIMG" src="img/NXTlogo.png" width="75px" height="75px"> NXT museum <li class="active"> <a href="engels.html"><b>nl</b>/en</a> </li> </header>
         
     <article id="Introductie">
