@@ -1,7 +1,5 @@
 #main {
     padding: 0;
-    margin-left: 2%;
-    margin-right: 2%;
     box-sizing: border-box;
     
 
@@ -39,7 +37,7 @@ body.dark-mode {
 }
 
 button{
-    background-color: #212121; /* Green */
+    background-color: #000000;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -48,6 +46,9 @@ button{
     display: inline-block;
     font-size: 16px;
 }
+/*#button{
+    
+}*/
 
 footer {
     background-color: black;
@@ -68,7 +69,8 @@ footer {
 }
 
 #SponsorLogo {
-    width: 15%;
+    height: 100px;
+    width: auto;
     display: flex;
     justify-content: flex-end;
 }
@@ -117,10 +119,13 @@ footer {
 
 #Tripadvisor {
     width: 35%;
+    font-size: 38px;
+    margin-bottom: 110px;
 }
 
 #GoogleReviews {
     width: 35%;
+    font-size: 38px;
 }
 
 #introIMG{
@@ -130,7 +135,7 @@ footer {
 
 
 #Introductie{
- font-size: 20px;
+ font-size: 38px;
  width: auto;
  display: flex;
  align-items: center;
@@ -143,7 +148,7 @@ footer {
 }
 
 #Informatie{
-    font-size: 20px;
+    font-size: 28px;
     width: 50%;
     display: flex;
 }   
@@ -157,14 +162,23 @@ a{
     text-decoration: none;
     color: whitesmoke;
 }
-    width: 35vw;
-}
+
+
 #FixedHeader{
+    background-color: #000000;
+    display: inline-flex;
+    height: 80px;
+    width: 100vw;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
     position: fixed;
     top:0;
+}
+#socials{
+    display: inline-flex;
+    justify-content: right;
+    gap: 10px;
 }
 #FixedFooter{
     display: flex;
@@ -175,7 +189,7 @@ a{
     position: fixed;
     bottom:0;
     width: 100%;
-    height: 7vw;
+    height: 100px;
 }
 #footerTXTa{
     font-size: medium;
@@ -184,8 +198,8 @@ a{
     font-size: medium;
 }
 #Informatie{
-    width: 50%
-    float:left
+    width: 50%;
+    float:left;
 }
 #infoIMG{
     width:50%;

@@ -7,8 +7,10 @@
     <title>MuseumOnline</title>
 </head>
 <body class="dark-mode">
-    <header>
-        <button onclick="toggleMode()">Toggle light mode</button>
+    <header id="FixedHeader">
+        <img id="logoIMG" src="img/NXTlogo.png" width="75px" height="75px"> NXT museum <li class="active">
+        <a href="engels.html"><b>nl</b>/en</a> </li> 
+        <button id="button"onclick="toggleMode()">Toggle light mode</button>
         <script>
             function toggleMode() {
                 var bodyElement = document.body;
@@ -23,7 +25,16 @@
                 }
             }
         </script>
-        <img id="logoIMG" src="img/NXTlogo.png" width="75px" height="75px"> NXT museum <li class="active"> <a href="engels.html"><b>nl</b>/en</a> </li> </header>
+        <button id="button"onclick="ReviewScroll()">Reviews</button>
+        <script>
+            function ReviewScroll() {
+                const reviewPos = document.getElementById("GoogleReviews")
+                reviewPos.scrollIntoView();
+            }
+        </script>
+        <li id="socials"><a href="https://www.instagram.com/nxtmuseum/"><img src="img/nohat.png" alt="insta" height="80px" width="80px"></a><a href="https://twitter.com/nxtmuseum"><img src="img/X_logo_2023_(white).png" alt="x" height="80px" width="80px"></a></li>
+    </header>
+        
         
     <article id="Introductie">
         <p>Het eerste museum in Nederland dat zich volledig richt op mediakunst.
