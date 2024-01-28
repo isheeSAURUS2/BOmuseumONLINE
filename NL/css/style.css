@@ -1,20 +1,32 @@
-* {
+#main {
     padding: 0;
     margin-left: 2%;
     margin-right: 2%;
     box-sizing: border-box;
+    
+
 }
+*{
+    max-zoom: 25%;
+}
+
 
 @font-face {
     font-family: Poppins-Thin;
     src: url(Poppins-Thin.ttf);
 }
 
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 body {
     background-color: #212121;
-    font-size: 28px;
+    font-size: 2vw;
     font-family: Poppins-Thin;
     color: whitesmoke;
+    
 }
 
 body.light-mode {
@@ -39,14 +51,26 @@ button{
 
 footer {
     background-color: black;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+
 }
 
 #footerTXT {
-    margin-left: 20px;
+    font-size: 1vw;
+    text-align: center;
+    width: 25vw;
+}
+.links{
+    display: flex;
+    
 }
 
-#SponserLogo {
-    width: 20%;
+#SponsorLogo {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #qr{
@@ -62,6 +86,9 @@ footer {
 .barIMGS {
     width: 26%;
     height: 20%;
+}
+#logoIMG{
+    margin-left: 30px;
 }
 
 #Introductie {
@@ -129,4 +156,38 @@ footer {
 a{
     text-decoration: none;
     color: whitesmoke;
+}
+    width: 35vw;
+}
+#FixedHeader{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    position: fixed;
+    top:0;
+}
+#FixedFooter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 7vw;
+}
+#footerTXTa{
+    font-size: medium;
+}
+#footerTXTb{
+    font-size: medium;
+}
+#Informatie{
+    width: 50%
+    float:left
+}
+#infoIMG{
+    width:50%;
+    float: right;
 }
